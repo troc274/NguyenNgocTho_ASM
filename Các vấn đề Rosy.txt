@@ -1,0 +1,7 @@
+
+Thay đổi đường dẩn trang laravel 
+Đổi lại thông tin / bỏ dấu . sau thông tin của anh út 
+Header không để trong suốt
+
+admin
+Thay đổi lại đường dẩn hình ở trang admin/home

@@ -1,0 +1,132 @@
+.slidebar
+    li 
+        i 
+            border-radius: 3px
+            width: 30px
+            height: 30px
+            background: #868686
+            padding: .4rem
+            color: white
+            margin-right: .5rem
+            display: inline-flex
+            justify-content: center
+            align-items: center
+.category
+    form 
+        padding: 2rem .7rem
+        border-radius: 3px
+        border: 2px solid green
+
+.product
+    .nav-handle-product
+        a
+            padding: .4rem 1rem
+            margin-right: 1rem
+            color: white
+            font-weight: 1rem 
+            line-height: 1rem
+            border-radius: 3px
+.product-insert
+    .single-image
+        .box-img-custom
+            width: 100%
+            padding-top: 100% * 3 / 2
+    .group-image-albums
+        .box-img-custom
+            width: 24%
+            padding-top: (20%) * 3 / 2
+            box-shadow: 0px 0px 7px rgba(black, .06)
+            margin-right: 1%
+    .group-image-albums,.single-image
+        display: flex
+        justify-content: flex-start
+        flex-wrap: wrap
+        .box-img-custom
+            height: 0
+            overflow: hidden
+            position: relative
+            margin-top: .5rem
+            border-radius: 3px
+            img
+                position: absolute
+                top: 0
+                left: 0
+                width: 100%
+                height: 100%
+    select
+        option
+            position: relative
+            background: var(--color)
+        
+.decimal 
+    position: relative
+    &::before
+        content: "kjahdjashkdjas"
+        display: block
+        width: 70px
+        height: 30px
+        position: absolute
+        left: 10px
+        top: 0px
+        background: red
+        z-index: 10
+    
+.form-group
+    label
+        color: $pink
+table 
+    .color
+        display: inline-block
+        width: 30px
+        height: 20px
+        background: var(--color)
+.color-select
+    width: 100%
+    height: 30px
+    background: var(--color)
+
+.story-nav-top
+    li 
+        margin-right: 2rem
+    .form-group-search
+        display: flex
+        justify-content: space-between
+        input
+            margin-right: .5rem
+        button
+            border: none 
+            border-radius: 3px 
+            background: $blue
+            color: white
+            padding: .3rem 1rem
+            font-weight: 400
+            span
+                margin-right: .2rem
+.image-wedding
+    position: relative
+    width: 100%
+    padding-top: 100% * 1.7/3
+    img
+        width: 100%
+        height: 100%
+        position: absolute
+        top: 0
+        left: 0
+.image-wedding
+    width: 50px
+    height: 50px
+    object-fit: cover
+    border-radius: 50%
+    padding: 0
+.image-banner-wedding
+    width: 100px
+    height: 50px
+    object-fit: cover
+    padding: 0
+
+// admin home 
+.take 
+    img
+        width: 30px
+        height: 30px
+        object-fit: cover
